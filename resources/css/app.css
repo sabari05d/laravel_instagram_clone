@@ -1,0 +1,49 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+/* Custom Font Class */
+.font-1 {
+    font-family: "Merienda", cursive;
+}
+
+.min-vh-80 {
+    min-height: 80dvh;
+}
+
+.content {
+    padding-top: 90px; /* Slightly more than header height */
+    padding-bottom: 90px; /* Optional if you have a fixed footer */
+}
+
+input,
+textarea,
+select,
+input::placeholder,
+textarea::placeholder {
+    background-color: #000 !important;
+    color: white !important;
+    border: 1px solid #000;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1050;
+    background-color: #000 !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1000 !important;
+}
+
+.carousel-media {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
